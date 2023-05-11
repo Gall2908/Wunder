@@ -1,0 +1,544 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://225065d0-2427-4620-bcdd-78a768839c69",
+	"@type": "sc:Manifest",
+	"label": "The modern Wunderkammer ",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://03313140-f9c3-440c-a7c5-4722a86746be",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://ad4b26e8-21da-4bc7-a13a-a9706aef724e",
+					"@type": "sc:Canvas",
+					"label": "Wunderkammer ",
+					"height": "3941",
+					"width": "5333",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://78258fb8-656f-4236-9714-22be5fd2c247",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://localhost:8182/iiif/2/Wunderkammer.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://localhost:8182/iiif/2/Wunderkammer.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 10000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3941,
+								"width": 5333
+							},
+							"on": "http://ad4b26e8-21da-4bc7-a13a-a9706aef724e"
+						}
+					],
+					"related": "https://www.jstor.org/stable/25703534 ",
+					"metadata": [
+						{
+							"label": "Copyright",
+							"value": "Open Access"
+						},
+						{
+							"label": "Source",
+							"value": "Wellcome Collection"
+						},
+						{
+							"label": "Period",
+							"value": "1599"
+						}
+					]
+				},
+				{
+					"@id": "http://611feb84-824f-4ac1-b1e3-4d974fd603c3",
+					"@type": "sc:Canvas",
+					"label": "Mater Matuta",
+					"height": "1500",
+					"width": "1245",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d9f7d58c-beca-481a-88d4-2407c151a104",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://localhost:8182/iiif/2/Roberto%20Ferri.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://localhost:8182/iiif/2/Roberto%20Ferri.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 1867500,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1500,
+								"width": 1245
+							},
+							"on": "http://611feb84-824f-4ac1-b1e3-4d974fd603c3"
+						}
+					],
+					"metadata": [
+						{
+							"label": "Author",
+							"value": "Roberto Ferri"
+						},
+						{
+							"label": "Format",
+							"value": "Tempera Painting"
+						},
+						{
+							"label": "Copyright ",
+							"value": "Roberto Ferri"
+						},
+						{
+							"label": "Date",
+							"value": "2020"
+						}
+					],
+					"related": {
+						"@id": "https://www.instagram.com/p/CsG2ROAIBDj/ ",
+						"label": "https://www.robertoferri.net/",
+						"format": ""
+					}
+				},
+				{
+					"@id": "http://c03931aa-e83e-4ee2-b152-6bff37f589db",
+					"@type": "sc:Canvas",
+					"label": "Mother of pearls",
+					"height": "497",
+					"width": "430",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://83290d88-7b50-45c1-ad92-60b901fe25da",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://localhost:8182/iiif/2/Marco%20Grassi.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://localhost:8182/iiif/2/Marco%20Grassi.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 213710,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 497,
+								"width": 430
+							},
+							"on": "http://c03931aa-e83e-4ee2-b152-6bff37f589db"
+						}
+					],
+					"related": "https://www.instagram.com/p/CsG2ROAIBDj/ ",
+					"metadata": [
+						{
+							"label": "Author",
+							"value": "Marco Grassi"
+						},
+						{
+							"label": "Media",
+							"value": "Oil on Canvas"
+						},
+						{
+							"label": "Date",
+							"value": "2019"
+						},
+						{
+							"label": "Copyright",
+							"value": "Marco Grassi, private collection"
+						},
+						{
+							"label": "Related",
+							"value": "https://www.marcograssipainter.com/"
+						}
+					]
+				},
+				{
+					"@id": "http://20ce7ece-bd6c-42e9-b6be-18c4c19ea95e",
+					"@type": "sc:Canvas",
+					"label": "Red Zone",
+					"height": "1024",
+					"width": "925",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://1cebccbc-66a2-497d-91e4-4870a060b9e7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://localhost:8182/iiif/2/Federico%20Clapis.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://localhost:8182/iiif/2/Federico%20Clapis.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 947200,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1024,
+								"width": 925
+							},
+							"on": "http://20ce7ece-bd6c-42e9-b6be-18c4c19ea95e"
+						}
+					],
+					"related": "https://www.instagram.com/p/CsG2ROAIBDj/ ",
+					"metadata": [
+						{
+							"label": "Author",
+							"value": "Federico Clapis"
+						},
+						{
+							"label": "Date",
+							"value": "2020"
+						},
+						{
+							"label": "Media",
+							"value": "Metal sculpture"
+						},
+						{
+							"label": "Copyright",
+							"value": "Federico Clapis"
+						},
+						{
+							"label": "Related",
+							"value": "https://www.federicoclapis.com/"
+						}
+					]
+				},
+				{
+					"@id": "http://a9ff8158-1c29-472d-9971-665f513084ca",
+					"@type": "sc:Canvas",
+					"label": "Cabinet Studiolo",
+					"height": "1920",
+					"width": "2876",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://00ee4b4f-d354-4404-8c36-009c595d3df9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://localhost:8182/iiif/2/Cabinet%20Studiolo.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://localhost:8182/iiif/2/Cabinet%20Studiolo.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 5521920,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1920,
+								"width": 2876
+							},
+							"on": "http://a9ff8158-1c29-472d-9971-665f513084ca"
+						}
+					],
+					"related": "https://www.instagram.com/p/CsG2ROAIBDj/ ",
+					"metadata": [
+						{
+							"label": "Copyright",
+							"value": "Studiolo"
+						},
+						{
+							"label": "Format",
+							"value": "Environment "
+						},
+						{
+							"label": "Related",
+							"value": "http://www.studioloproject.com/exhibitions/Group_Show_at_studiolo_lenalong_margauxmeyer_eldaminiero_margueritepiard?fbclid=PAAaaauF6yT6ZvC1C6BQ-HjHP4KLgzMzjMJxZpmklI15PL7tjj9a4Uw7wIO4g"
+						}
+					]
+				},
+				{
+					"@id": "http://445b6bd4-1578-451c-96d7-7d5bb85b9f66",
+					"@type": "sc:Canvas",
+					"label": "Set me free",
+					"height": "2340",
+					"width": "1920",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e7f97f76-00e3-4adf-83ba-348530242ef0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://localhost:8182/iiif/2/Flora%20Borsi.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://localhost:8182/iiif/2/Flora%20Borsi.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 4492800,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2340,
+								"width": 1920
+							},
+							"on": "http://445b6bd4-1578-451c-96d7-7d5bb85b9f66"
+						}
+					],
+					"related": "https://www.instagram.com/p/CsG2ROAIBDj/ ",
+					"metadata": [
+						{
+							"label": "Author",
+							"value": "Flora Borsi"
+						},
+						{
+							"label": "Copyright",
+							"value": "Flóra Borsi & Hasselblad 2022"
+						},
+						{
+							"label": "Media",
+							"value": "Photography "
+						},
+						{
+							"label": "Related",
+							"value": "https://floraborsi.com/projects"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": []
+}
